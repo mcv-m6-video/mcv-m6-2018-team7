@@ -14,8 +14,8 @@ We will employ basic concepts and techniques related to video sequences mainly f
 divided in 4 main stages: background estimation, foreground segmentation, video stabilization and region tracking. 
 
 ## Week 1
-Task 1. Background substraction. Segmentation metrics. Precision and recall.
-Task 2. Background susbtraction. Segmentation metrics. Temporal analysis.
-Task 3. Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.
-Task 4. Background substraction. Evaluation of de-synchornized results.
-Task 5. Visual representation of optical flow.
+**Task 1.** Background substraction. Segmentation metrics. Precision and recall.   
+**Task 2.** Background susbtraction. Segmentation metrics. Temporal analysis.   
+**Task 3.** Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.   
+**Task 4.** Background substraction. Evaluation of de-synchornized results.   
+**Task 5.** Visual representation of optical flow.   
