@@ -2,7 +2,7 @@
 Master in Computer Vision, Barcelona (2017-2018) - M6 Video Analysis
 
 ## About us
-We are Team 7: 
+We are Team 7:   
 [Roger Marí](https://github.com/rogermm14). Email: roger.mari01@estudiant.upf.edu  
 [Joan Sintes](https://github.com/JoSintes8). Email: joan.sintes01@estudiant.upf.edu  
 [Àlex Palomo](https://github.com/alexpalomodominguez). Email: alex.palomo01@estudiant.upf.edu  
