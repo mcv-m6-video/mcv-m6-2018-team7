@@ -17,4 +17,5 @@
   
 **Task 4.** Gaussian modelling taking into account color. RGB and YCbCr colorspaces used.
   - Set the boolean 'Color' to 'True' in main.py 
-  - Run the same functions from Task 1, they are adapted to deal with 3-channel images. aaaa   
+  - Run the same functions from Task 1, they are adapted to deal with 3-channel images.
+  - Uncomment line 55 of backgroundEstimation.py to use YCbCr. 
