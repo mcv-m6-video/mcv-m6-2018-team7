@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#week2 things
+.idea/
+Dataset/
+Week2_final/
