@@ -19,3 +19,9 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 3.** Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.   
 **Task 4.** Background substraction. Evaluation of de-synchornized results.   
 **Task 5.** Visual representation of optical flow.   
+
+## Week 2
+**Task 1.** Gaussian modelling. Evaluation by means of F-score vs alpha and PR curves (AUC).   
+**Task 2.** Adaptive modelling. Comparison adaptive vs non-adaptive modelling (F-score and AUC).  
+**Task 3.** Comparison with state of the art (methods from Task 1 and 2 vs MOG and MOG2).   
+**Task 4.** Gaussian modelling taking into account color (RGB and YCbCr colorspaces).
