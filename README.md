@@ -29,9 +29,9 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
 
 ## Week 3. Post-processing techniques to improve background subtraction.
-**Task 1.** Hole filling to complete objects in the foreground.
-**Task 2.** Area filtering to remove noise from the background.
-**Task 3.** Morphological operators (closing + hole filling) to boost perfromance.   
-**Task 4.** Shadow detection and removal (pixel based methods using the HSV colorspace).
-**Task 5.** Improvement in Precision-Recall curves with respect to the best configuration from week 2.
+**Task 1.** Hole filling to complete objects in the foreground.   
+**Task 2.** Area filtering to remove noise from the background.    
+**Task 3.** Morphological operators (closing + hole filling) to boost perfromance.        
+**Task 4.** Shadow detection and removal (pixel based methods using the HSV colorspace).    
+**Task 5.** Improvement in Precision-Recall curves with respect to the best configuration from week 2.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
