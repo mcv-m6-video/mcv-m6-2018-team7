@@ -28,7 +28,7 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 4.** Gaussian modelling taking into account color. RGB and YCbCr colorspaces used.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
 
-## Week 3. Post-processing techniques to improve background subtraction.
+## Week 3. Post-processing techniques for background subtraction.
 **Task 1.** Hole filling to complete objects in the foreground.   
 **Task 2.** Area filtering to remove noise from the background.    
 **Task 3.** Morphological operators (closing + hole filling) to boost perfromance.        
