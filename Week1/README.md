@@ -1,4 +1,4 @@
-## Week 1
+## Week 1. Metrics and tools for background subtraction / OF evaluation
 
 **Task 1.** Background substraction. Segmentation metrics. Precision and recall.      
   - Run the function evaluateFolder() in main.py       
