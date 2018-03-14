@@ -1,4 +1,4 @@
-## Week 2
+## Week 2. Background subtraction via Gaussian modelling
 
 **Task 1.** Gaussian modelling. Evaluation by means of F-score vs alpha and AUC (Precision-Recall curves).      
   - Run the function optimalAlpha() and f1ScoreCurve() in main.py for F-score vs alpha. 
