@@ -1,22 +1,28 @@
-## Week 2
+## Week 3. Post-processing techniques for background subtraction.
 
-**Task 1.** Gaussian modelling. Evaluation by means of F-score vs alpha and AUC (Precision-Recall curves).      
-  - Run the function optimalAlpha() and f1ScoreCurve() in main.py for F-score vs alpha. 
-  - Run the function precisionRecallCurve() in main.py for AUC. 
-  - See the implementation of optimalAlpha() in backgroundEstimation.py
-  - See the implementation of f1ScoreCurve() and precisionRecallCurve() in readInputWriteOutput.py
+**Task 1.** Hole filling to complete objects in the foreground.        
+  - Set the boolean 'task1' to True in the main.py and run.  
+  - Set 'holeFilling' to True and the rest to False in the postprocessing booleans.   
+  - backgroundEstimationAdaptive.optimalAlphaAdaptive() is executed for each dataset to find the AUC.   
 
-**Task 2.** Adaptive modelling. Comparison between adaptive and non-adaptive methods via F-score and AUC. 
-  - Run the function gridSearchAdaptiveClassifier() in main.py to find optimal parameters for the adaptive model.
-  - The adaptive model is implemented in the class AdaptiveClassifier (check the associated .py file). 
-  - Run the function optimalAlphaAdaptive() for F-score vs alpha (implemented in backgroundEstimationAdaptive.py).   
-  - Run the function precisionRecallCurve() in main.py for AUC.
+**Task 2.** Area filtering to remove noise from the background.    
+  - Set the boolean 'task2' to True in the main.py and run.   
+  - Set 'holeFilling' and 'areaFiltering' to True and the rest to False in the postprocessing booleans.   
+  - backgroundEstimationAdaptive.optimalPAdaptive() is executed to find the optimal P for each sequence.   
   
-**Task 3.** Comparison with state of the art. Methods from Tasks 1 and 2 are compared to MOG and MOG2.
-  - Run the function testBackgroundSubtractorMOG() in main.py
-  - See the implementation of testBackgroundSubtractorMOG() in stateOfTheArt.py
+**Task 3.** Morphological operators (closing + hole filling) to boost perfromance.    
+  - Set the boolean 'task3' to True in the main.py and run.   
+  - Set 'holeFilling', 'areaFiltering' and 'Morph' to True and the rest to False in the postprocessing booleans.   
+  - backgroundEstimationAdaptive.optimalAlphaAdaptive() is executed for each dataset to find the AUC.   
+  - All post-processing techniques up to task 3 are implemented in AdaptiveClassifier.postProcessing().   
   
-**Task 4.** Gaussian modelling taking into account color. RGB and YCbCr colorspaces used.
-  - Set the boolean 'Color' to 'True' in main.py 
-  - Run the same functions from Task 1, which are adapted to work with 3-channel images.
-  - Uncomment line 55 of backgroundEstimation.py to use YCbCr. 
+**Task 4.** Shadow detection and removal (pixel based methods using the HSV colorspace).   
+  - Set the boolean 'task4' to True in the main.py and run.    
+  - Set 'holeFilling', 'areaFiltering', 'Morph' and 'shadRemov' to True in the postprocessing booleans.    
+  - Shadow removal is implemented in AdaptiveClassifier.shadowRemoval().   
+  - To use method 1: uncomment lines 99-103 and comment lines 110-116.   
+  - To use method 2: comment lines 99-103 and uncomment lines 110-116.    
+
+**Task 4.** Improvement in Precision-Recall curves with respect to the best configuration from week 2.    
+  - Set the boolean 'task5' to True in the main.py and run.   
+  - readInputWriteOutput.precisionRecallCurveDataset() is used to plot the PR curves of each dataset.   
