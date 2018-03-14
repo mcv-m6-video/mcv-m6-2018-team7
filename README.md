@@ -13,7 +13,7 @@ This 5-week project presents a series of experiments related to video analysis f
 We will employ basic concepts and techniques related to video sequences mainly for surveillance applications,     
 divided in 4 main stages: background estimation, foreground segmentation, video stabilization and region tracking. 
 
-## Week 1. Metrics and tools for background subtraction / optical flow evaluation.
+## Week 1. Metrics and tools for background subtraction / OF evaluation.
 **Task 1.** Background substraction. Segmentation metrics. Precision and recall.   
 **Task 2.** Background susbtraction. Segmentation metrics. Temporal analysis.   
 **Task 3.** Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.   
