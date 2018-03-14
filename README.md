@@ -13,7 +13,7 @@ This 5-week project presents a series of experiments related to video analysis f
 We will employ basic concepts and techniques related to video sequences mainly for surveillance applications,     
 divided in 4 main stages: background estimation, foreground segmentation, video stabilization and region tracking. 
 
-## Week 1
+## Week 1. Evaluation metrics and tools for background subtraction / optical flow estimation.
 **Task 1.** Background substraction. Segmentation metrics. Precision and recall.   
 **Task 2.** Background susbtraction. Segmentation metrics. Temporal analysis.   
 **Task 3.** Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.   
@@ -21,9 +21,17 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 5.** Visual representation of optical flow.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week1/README.md)
 
-## Week 2
+## Week 2. Background subtraction via adaptive and non-adaptive Gaussian modelling.
 **Task 1.** Gaussian modelling. Evaluation by means of F-score vs alpha and AUC (Precision-Recall curves).   
 **Task 2.** Adaptive modelling. Comparison between adaptive and non-adaptive methods via F-score and AUC.  
 **Task 3.** Comparison with state of the art. Methods from Tasks 1 and 2 are compared to MOG and MOG2.   
 **Task 4.** Gaussian modelling taking into account color. RGB and YCbCr colorspaces used.    
+- [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
+
+## Week 3. Post-processing techniques to improve background subtraction.
+**Task 1.** Hole filling to complete objects in the foreground.
+**Task 2.** Area filtering to remove noise from the background.
+**Task 3.** Morphological operators (closing + hole filling) to boost perfromance.   
+**Task 4.** Shadow detection and removal (pixel based methods using the HSV colorspace).
+**Task 5.** Improvement in Precision-Recall curves with respect to the best configuration from week 2.
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
