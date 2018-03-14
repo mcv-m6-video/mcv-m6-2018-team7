@@ -1,4 +1,4 @@
-## Week 3. Post-processing techniques for background subtraction.
+## Week 3. Post-processing techniques for background subtraction
 
 **Task 1.** Hole filling to complete objects in the foreground.        
   - Set the boolean 'task1' to True in the main.py and run.  
