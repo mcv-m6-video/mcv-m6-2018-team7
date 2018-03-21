@@ -13,7 +13,7 @@ This 5-week project presents a series of experiments related to video analysis f
 We will employ basic concepts and techniques related to video sequences mainly for surveillance applications,     
 divided in 4 main stages: background estimation, foreground segmentation, video stabilization and region tracking. 
 
-## Week 1. Metrics and tools for background subtraction / OF evaluation.
+## Week 1. Metrics and tools for Background Subtraction / OF evaluation.
 **Task 1.** Background substraction. Segmentation metrics. Precision and recall.   
 **Task 2.** Background susbtraction. Segmentation metrics. Temporal analysis.   
 **Task 3.** Optical flow evaluation metrics. Mean Squared Error and Percentage of Erroneous Pixels in Non-occluded areas.   
@@ -28,7 +28,7 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 4.** Gaussian modelling taking into account color. RGB and YCbCr colorspaces used.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week2/README.md)
 
-## Week 3. Post-processing techniques for background subtraction.
+## Week 3. Post-processing techniques for Background Subtraction.
 **Task 1.** Hole filling to complete objects in the foreground.   
 **Task 2.** Area filtering to remove noise from the background.    
 **Task 3.** Morphological operators (closing + hole filling) to boost perfromance.        
