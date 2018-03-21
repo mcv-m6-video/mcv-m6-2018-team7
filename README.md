@@ -35,3 +35,11 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 4.** Shadow detection and removal (pixel based methods using the HSV colorspace).    
 **Task 5.** Improvement in Precision-Recall curves with respect to the best configuration from week 2.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week3/README.md)
+
+## Week 4. Optical Flow with Block Matching and Video Stabilization.
+**Task 1.1.** Optical Flow with Block Matching (using MSE as matching cost).   
+**Task 1.2.** Block Matching vs other techniques (Farnebäck's method and TV-L1 Optical Flow).
+**Task 2.1.** Video Stabilization with Block Matching (experiments with 2 approaches).     
+**Task 2.2** Block Matching Video Stabilization vs other techiques (Pyramidal Lucas-Kanade and Homography-based)  
+**Task 2.3.** Video Stabilization of videos of our own.   
+- [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week4/README.md)
