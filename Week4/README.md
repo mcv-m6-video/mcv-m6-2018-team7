@@ -2,7 +2,7 @@
 
 **Task 1.1.** Optical Flow with Block Matching (using MSE as matching cost).   
   - Run the function optimalBlockSizeArea() in main.py to find best block size and area of search.    
-  - Function plotMSENPEPNCurves() plots evolution of MSEN and PEPN for each block size and area of search combination.   
+  - Function plotMSENPEPNCurves() plots evolution of MSEN and PEPN for each block size and area of search.   
   - After parameter tuning, estimateOpticalFlow() is used to compute OF with the optimal block size and area of search.   
 
 **Task 1.2.** Block Matching vs other techniques (Farnebäck's method and TV-L1 Optical Flow).    
