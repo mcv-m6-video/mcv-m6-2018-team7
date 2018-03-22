@@ -2,7 +2,7 @@
 
 **Task 1.1.** Optical Flow with Block Matching (using MSE as matching cost).   
   - Run the function optimalBlockSizeArea() in main.py to find best block size and area of search.    
-  - Function plotMSENPEPNCurves() plots the evolution of MSEN and PEPN for each block size and area of search combination.   
+  - Function plotMSENPEPNCurves() plots evolution of MSEN and PEPN for each block size and area of search combination.   
   - After parameter tuning, estimateOpticalFlow() is used to compute OF with the optimal block size and area of search.   
 
 **Task 1.2.** Block Matching vs other techniques (Farnebäck's method and TV-L1 Optical Flow).    
@@ -13,7 +13,7 @@
   
 **Task 2.1.** Video Stabilization with Block Matching (experiments with 2 approaches).   
   - Run the function videoStabilizationPairs() in main.py.   
-  - Then run videoStabilizationReference() or videoStabilizationMovement() to use our approach 1 or 2 for video stabilization. 
+  - Use videoStabilizationReference() or videoStabilizationMovement() to use our approach 1 or 2 for video stabilization. 
   - Finally use optimalAlphaAdaptive(), optimalAlphaAdaptiveStabilized() and precisionRecallCurveDataset().       
     to plot Precision-Recall curves and get AUC of background subtraction before and after video stabilization.       
   
@@ -24,4 +24,4 @@
 **Task 2.3.** Video Stabilization of videos of our own.    
   - Complete the source and destination paths (where to read input video and write output stabilized video) in main.py.    
   - Function convertVideotoFrames() is used to extract the frames from the input video (we used mp4 format).   
-  - Then run videoStabilizationReference() or videoStabilizationMovement() to use our approach 1 or 2 for video stabilization.    
+  - Run videoStabilizationReference() or videoStabilizationMovement() to use our approach 1 or 2 for video stabilization.    
