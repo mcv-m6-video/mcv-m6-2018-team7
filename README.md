@@ -21,7 +21,7 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 5.** Visual representation of optical flow.    
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week1/README.md)
 
-## Week 2. Background subtraction via Gaussian modelling.
+## Week 2. Background Subtraction via Gaussian Modelling.
 **Task 1.** Gaussian modelling. Evaluation by means of F-score vs alpha and AUC (Precision-Recall curves).   
 **Task 2.** Adaptive modelling. Comparison between adaptive and non-adaptive methods via F-score and AUC.  
 **Task 3.** Comparison with state of the art. Methods from Tasks 1 and 2 are compared to MOG and MOG2.   
@@ -44,7 +44,7 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 **Task 2.3.** Video Stabilization of videos of our own.     
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week4/README.md)
 
-## Week 5. Vehicle tracking and speed estimation.   
+## Week 5. Vehicle Tracking and Speed Estimation.   
 **Task 1.1.** Tracking with Kalman Filter (and bounding box merging).    
 **Task 1.2.** Other tracking methods. Median-Flow tracker.    
 **Task 2.** Speed estimation via homography rectification.   
