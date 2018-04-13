@@ -5,7 +5,7 @@
   - Tracking with Kalman filter is implmenented in trackingKalman.py. Check the filter paramters in KalmanFilter.py.   
   - The function mergeCloseBoundingBoxes() is used to enable certain cars to have more than one connected component.      
 
-**Task 1.2.** Tracking with other tracking methods. The Median-Flow tracker.   
+**Task 1.2.** Tracking with other methods. The Median-Flow tracker.   
   - Run the function testMedianFlowTracking() in main.py to perform tracking with OpenCV's Median-Flow tracker.   
   - OpenCV version 3.0 or higher required.   
   - We added the functions in utilsTracking.py to initialize the tracker for each vehicle and for bbox merging.   
