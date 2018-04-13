@@ -46,7 +46,7 @@ divided in 4 main stages: background estimation, foreground segmentation, video 
 
 ## Week 5. Vehicle Tracking and Speed Estimation.   
 **Task 1.1.** Tracking with Kalman Filter (and bounding box merging).    
-**Task 1.2.** Other tracking methods. Median-Flow tracker.    
+**Task 1.2.** Tracking with other methods. The Median-Flow tracker.   
 **Task 2.** Speed estimation via homography rectification.   
 **Task 3.** Own study: car density (cars/frame), traffic rate (cars/minute) and infraction detection (speed limit 80km/h).   
 - [x] Check the information about how to run the code [here](https://github.com/mcv-m6-video/mcv-m6-2018-team7/blob/master/Week5/README.md)    
