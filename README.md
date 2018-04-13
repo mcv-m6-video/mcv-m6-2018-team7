@@ -1,7 +1,7 @@
 # Video Surveillance for Road Traffic Monitoring
 Master in Computer Vision, Barcelona (2017-2018) - M6 Video Analysis
 
-Check our slides for the 5th Workshop on “Road Traffic Monitoring” [here](https://docs.google.com/presentation/d/1ADPmJzXzQae1tG8CEU9k5mmagYiHqYWEWogObFleBc0/edit?usp=sharing)
+Check our slides for the 5th Workshop on “Road Traffic Monitoring” [here](https://docs.google.com/presentation/d/1ADPmJzXzQae1tG8CEU9k5mmagYiHqYWEWogObFleBc0/edit?usp=sharing).
 
 ## About us
 We are Team 7:   
