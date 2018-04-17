@@ -1,8 +1,6 @@
 # Video Surveillance for Road Traffic Monitoring
 Master in Computer Vision, Barcelona (2017-2018) - M6 Video Analysis
 
-Check our slides for the 5th Workshop on “Road Traffic Monitoring” [here](https://docs.google.com/presentation/d/1ADPmJzXzQae1tG8CEU9k5mmagYiHqYWEWogObFleBc0/edit?usp=sharing).
-
 ## About us
 We are Team 7:   
 [Roger Marí](https://github.com/rogermm14). Email: roger.mari01@estudiant.upf.edu  
@@ -14,6 +12,11 @@ We are Team 7:
 This 5-week project presents a series of experiments related to video analysis for traffic monitoring.   
 We will employ basic concepts and techniques related to video sequences mainly for surveillance applications,     
 divided in 4 main stages: background estimation, foreground segmentation, video stabilization and region tracking. 
+
+## Slides and Report
+Check our slides for the 5th Workshop on “Road Traffic Monitoring” [here](https://docs.google.com/presentation/d/1ADPmJzXzQae1tG8CEU9k5mmagYiHqYWEWogObFleBc0/edit?usp=sharing).   
+
+Check the report on our traffic monitoring system [here](https://www.overleaf.com/read/xhgspdwqvbjq).   
 
 ## Week 1. Metrics and tools for Background Subtraction / OF evaluation.
 **Task 1.** Background substraction. Segmentation metrics. Precision and recall.   
